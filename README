@@ -1,0 +1,61 @@
+Game - A Linux Command-line Exercise Framework
+Copyright (C) 2013 Jeremy Erickson
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+
+
+===========================
+== Introduction
+==
+
+Learning the Linux command-line is difficult - particularly because it is
+initially so boring. After using a GUI for years, navigating through typing
+seems exceptionally obtuse. When learning the very first commands: cd, pwd, 
+ls, less, mkdir, mv, cp, rm, etc., tutorials often suggest brief, pointless
+exercises to reinforce the use of these commands. These exercises usually 
+take the form of, "Type 'ls' and see what it does. Now type 'ls -l' and
+notice the difference." Boring boring boring. Good luck getting your average
+high school (or younger) kid interested in that. Much more fun to give up 
+and play some video games.
+
+So, lets make it a game. 
+
+In this project, we don't attempt to teach the linux command-line. Many 
+people have already put together great guides that walk new users through
+the different basic commands (For instance, linuxcommand.org). Instead, we 
+attempt to provide a flexible training environment to reinforce basic 
+commands, so they become second-nature, in a fun way.
+
+
+===========================
+== Components
+==
+
+===========================
+== How to play
+==
+
+
+===========================
+== Building your own modules
+==
+
+
+
+
+===========================
+== Credits
+==
