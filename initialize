@@ -1,0 +1,7 @@
+#!/bin/bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+if [[ ":$PATH:" != *":$DIR:"* ]]; then # if we haven't already added the dir to PATH
+  PATH=$PATH:$DIR # add the dir to PATH
+fi

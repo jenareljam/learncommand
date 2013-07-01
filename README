@@ -41,11 +41,77 @@ commands, so they become second-nature, in a fun way.
 
 
 ===========================
-== Components
+== How it works
 ==
+
+This project is divided into Modules, then further into levels. Each module
+will focus on a particular topic or set of new commands. Each module may
+have any number of levels, generally increasing in difficulty. To start, 
+all levels but level 1 will be "locked", and will be unlocked upon the 
+completion of the previous level. 
+
+In each module, there will be an INFO file that describes the overall goal
+of the module and what its exercises reinforce.
+
+Within each level, there will be a PUZZLE file that describes the goal of
+that particular level. Once you have achieved the goal of the level, run the
+"solve" script to unlock the next level. Depending on the level, the solve
+script may prompt you for more information before unlocking the next level.
+
+
+===========================
+== Getting started
+==
+
+To make this easy for beginners, we don't want to have to deal with relative
+paths back to the solve script. We also don't want to manually configure 
+environment variables - that's not an introductory topic for students first
+starting out with the command-line. We'll try to keep this as simple as
+possible, so from the game directory:
+
+Run "source initialize" to set up your environment for one session.
+
+OR
+
+Run "source initialize permanent" to set up your environment and add the 
+commands to your .bashrc file for persistance. #TODO
+
 
 ===========================
 == How to play
+==
+
+Use the 'cd' command to change to the directory of the module you want to 
+play. For example, if you want to play Module1, use the command "cd Module1".
+
+You can now use the 'ls' command to view the files in the Module1 directory.
+Notice there is a directory called 1/, a file called INFO, as well as some
+number of files 2.zip, 3.zip, 4.zip, and so on.
+
+Use the 'less' command to view the INFO file. This INFO file will contain 
+a general overview of the module and what its exercises will focus on. For 
+example, use the command "less INFO" to view the INFO for Module1. Press
+'q' to quit viewing the file.
+
+The directory, 1/, is the first level. Upon beating it, 2.zip will unlock
+into a new directory, 2/. Within each directory level is a PUZZLE file.
+This file will contain the instructions for the level you are attempting.
+When you have completed the level, you can use the "solve" command to unlock
+the next level.
+
+
+
+===========================
+== Dependencies
+==
+
+bash
+python 2.7 (previous versions may work, but are not recommended in general)
+unzip
+
+
+===========================
+== Components
 ==
 
 
